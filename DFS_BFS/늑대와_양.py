@@ -15,6 +15,7 @@ for i in range(R):
                 if ii<0 or ii==R or jj<0 or jj==C:
                     continue
                 if M[ii][jj]=='S':
+                    # 늑대 바로 옆에 양이 있으면 울타리를 설치할 수 없다.
                     ck = True
 if ck:
     print(0)
