@@ -17,14 +17,6 @@ def recursive(array,n):
     recursive(array, n)
     array.pop()
 
-    array.append('*')
-    recursive(array, n)
-    array.pop()
-
-    array.append('/')
-    recursive(array, n)
-    array.pop()
-
 test_case = int(input())
 for _ in range(test_case):
     operators_list=[]
